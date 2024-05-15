@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ckasidis/tsconfig/compare/v1.0.1...v1.0.2) (2024-05-15)
+
+
+### Bug Fixes
+
+* update module and moduleResolution ([35f6160](https://github.com/ckasidis/tsconfig/commit/35f6160342897f3a5b63052b17b9d17a3f074f8f))
+
 ## [1.0.1](https://github.com/ckasidis/tsconfig/compare/v1.0.0...v1.0.1) (2024-05-15)
 
 
