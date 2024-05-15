@@ -2,7 +2,7 @@
   "name": "@ckasidis/tsconfig",
   "version": "1.0.0",
   "private": false,
-  "description": "CK's Typescript Configuration",
+  "description": "CK's TypeScript Configuration",
   "keywords": [
     "typescript"
   ],
