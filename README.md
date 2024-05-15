@@ -1,0 +1,1 @@
+# CK's TypeScript Configuration

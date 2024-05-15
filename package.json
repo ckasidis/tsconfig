@@ -1,0 +1,51 @@
+{
+  "name": "@ckasidis/tsconfig",
+  "version": "0.0.0",
+  "private": false,
+  "description": "CK's Typescript Configuration",
+  "keywords": [
+    "typescript"
+  ],
+  "homepage": "https://github.com/ckasidis/tsconfig#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ckasidis/tsconfig.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ckasidis",
+    "url": "https://github.com/ckasidis"
+  },
+  "files": [
+    "./bundler.json",
+    "./bundler-dom.json"
+  ],
+  "scripts": {
+    "format:check": "prettier --check \"**/*.{html,css,scss,js,cjs,mjs,jsx,ts,tsx,md,markdown,mdx,json,yml,yaml,gql,graphql}\"",
+    "format:fix": "prettier --write \"**/*.{html,css,scss,js,cjs,mjs,jsx,ts,tsx,md,markdown,mdx,json,yml,yaml,gql,graphql}\""
+  },
+  "prettier": "@ckasidis/prettier-config",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/github"
+    ]
+  },
+  "devDependencies": {
+    "@ckasidis/prettier-config": "^1.0.2",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "prettier": "^3.0.3",
+    "semantic-release": "^22.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
